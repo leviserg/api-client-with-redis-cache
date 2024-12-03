@@ -1,0 +1,6 @@
+@api_client_with_redis_cache_HostAddress = http://localhost:5240
+
+GET {{api_client_with_redis_cache_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
